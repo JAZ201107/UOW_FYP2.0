@@ -1,0 +1,13 @@
+<h1>This is Guest Page</h1>
+<p>Just Upload Image, Detect, and Download</p>
+
+
+<form class="form-horizontal" action="{% url 'guest_page' %}" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    {{ form.as_p }}
+    <div class="col-sm-offset-2 col-sm-10">
+        <button type="submit" class="btn btn-primary">Count</button> &nbsp;
+    </div>
+</form>
+
+
