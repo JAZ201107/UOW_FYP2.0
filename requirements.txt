@@ -1,0 +1,12 @@
+# Basic Web Lib
+pymysql
+mysqlclient
+Django
+SQLAlchemy
+sympy
+
+django-storages
+boto3
+
+# Deal With Image
+Pillow
